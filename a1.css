@@ -1,0 +1,41 @@
+body{
+    background: linear-gradient(135deg, #ee9ca7, #ffdde1);
+}
+.form-main{
+    width: 400px;
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    margin: 0 auto;
+}
+body{
+    background: linear-gradient(135deg, #ee9ca7, #ffdde1);
+}
+.form1{
+    color: red;
+    padding: 5px;
+}
+.form1:focus{
+    background-color: yellow;
+}
+.note{
+    background-color: aqua;
+    color: red;
+}
+.form3{
+    border-radius: 5px;
+    outline: none;
+    padding: 8px 30px;
+    font-weight: bold;
+    background-color: white;
+    color: orangered;
+    box-shadow: inset 0 0 20px blueviolet;
+}
+.form3:hover{
+    box-shadow: inset 0 0 20px rgb(57, 1, 109);
+}
+.form3:disabled{
+    color: darkgray;
+    box-shadow: inset 0 0 20px gray;
+}
